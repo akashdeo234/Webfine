@@ -10,11 +10,15 @@ header {
     height: inherit;
     align-items: center;
     justify-content: space-between;
-    a {
+    .h-logo {
+      display: contents;
       img {
         width: 180px;
         height: auto;
       }
+    }
+    .h-logo.close{
+      display: none;
     }
     //header-styles
     .hamburger {

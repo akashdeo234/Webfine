@@ -200,9 +200,17 @@ header .container {
           justify-content: space-between;
 }
 
-header .container a img {
+header .container .h-logo {
+  display: contents;
+}
+
+header .container .h-logo img {
   width: 180px;
   height: auto;
+}
+
+header .container .h-logo.close {
+  display: none;
 }
 
 header .container .hamburger {
@@ -264,10 +272,6 @@ header .container .hamburger.close .line:nth-child(3) {
           transform: translateX(100%);
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-}
-
-.nav .container {
-  padding: 70px 0 80px;
 }
 
 .nav .container .logo {
