@@ -700,4 +700,68 @@ header .container .hamburger.close .line:nth-child(3) {
 .our-work .container .card-wrapper .card.three {
   margin-left: auto;
 }
+
+.what-make-us-different {
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+  background-color: #000;
+  position: relative;
+}
+
+.what-make-us-different .cartoon.three {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  right: -12%;
+  z-index: 1;
+}
+
+.what-make-us-different .container h1 {
+  padding: 50px 0 120px;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 5.5%;
+  max-width: 900px;
+  margin: 0% auto;
+}
+
+.what-make-us-different .container .card-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 55px;
+}
+
+.what-make-us-different .container .card-wrapper .card {
+  z-index: 2;
+  background-color: #fff;
+  color: #000;
+  padding: 70px 120px 50px 50px;
+  border-radius: 30px;
+  height: auto;
+}
+
+.what-make-us-different .container .card-wrapper .card h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  max-height: 450px;
+  font-weight: 800;
+}
+
+.what-make-us-different .container .card-wrapper .card p {
+  max-height: 200px;
+  font-size: 18px;
+  line-height: 175%;
+  font-weight: 500;
+  overflow: hidden;
+  opacity: 0.6;
+}
 /*# sourceMappingURL=index.css.map */
