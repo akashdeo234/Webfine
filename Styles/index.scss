@@ -152,19 +152,84 @@
           }
         }
       }
-      .service.two{
+      .service.two {
         img {
           height: 590px;
           width: 100%;
           object-fit: cover;
         }
       }
-      .service.three{
+      .service.three {
         img {
           height: 455px;
           width: 100%;
           object-fit: cover;
         }
+      }
+    }
+  }
+}
+
+//our-work
+.our-work {
+  width: 100%;
+  .container {
+    h1 {
+      padding: 80px 0;
+      font-size: 38px;
+      line-height: 165%;
+      font-weight: 500;
+      max-width: 950px;
+      letter-spacing: 2px;
+    }
+    .card-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 35px;
+      .card{
+        height: auto;
+        overflow: hidden;
+        padding: 0px 0 80px;
+        img{
+          height: auto;
+          width: 800px;
+          object-fit: contain;
+        }
+        .head{
+          display: flex;
+          align-items: center;
+          font-size: 28px;
+          font-weight: 800;
+          padding-top: 30px;
+          max-width: 1000px;
+          span{
+            width: 70px;
+            height: 2px;
+            background-color: #000;
+            margin: 0 25px;
+          }
+        }
+        p{
+          padding: 10px 0 40px;
+          font-size: 20px;
+          opacity: 0.6;
+          font-weight: 500;
+        }
+        .btn {
+          border: 2px solid #000;
+          color: #000;
+          padding: 20px 50px;
+          font-weight: 700;
+          text-align: center;
+          font-size: 16px;
+        }
+      }
+      .card.one{
+        margin-left: auto;
+      }
+      .card.three{
+        margin-left: auto;
       }
     }
   }

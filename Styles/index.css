@@ -597,4 +597,88 @@ header .container .hamburger.close .line:nth-child(3) {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.our-work {
+  width: 100%;
+}
+
+.our-work .container h1 {
+  padding: 80px 0;
+  font-size: 38px;
+  line-height: 165%;
+  font-weight: 500;
+  max-width: 950px;
+  letter-spacing: 2px;
+}
+
+.our-work .container .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 35px;
+}
+
+.our-work .container .card-wrapper .card {
+  height: auto;
+  overflow: hidden;
+  padding: 0px 0 80px;
+}
+
+.our-work .container .card-wrapper .card img {
+  height: auto;
+  width: 800px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.our-work .container .card-wrapper .card .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 30px;
+  max-width: 1000px;
+}
+
+.our-work .container .card-wrapper .card .head span {
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+  margin: 0 25px;
+}
+
+.our-work .container .card-wrapper .card p {
+  padding: 10px 0 40px;
+  font-size: 20px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.our-work .container .card-wrapper .card .btn {
+  border: 2px solid #000;
+  color: #000;
+  padding: 20px 50px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+}
+
+.our-work .container .card-wrapper .card.one {
+  margin-left: auto;
+}
+
+.our-work .container .card-wrapper .card.three {
+  margin-left: auto;
+}
 /*# sourceMappingURL=index.css.map */
