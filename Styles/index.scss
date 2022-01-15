@@ -1,48 +1,171 @@
-@import './common';
-@import './header';
+@import "./common";
+@import "./header";
 
-.bg-section{
-    width: 100%;
-    height: 100vh;
-    background-color: $secondary-one;
-    color: $primary-one;
-    z-index: 1;
+.bg-section {
+  width: 100%;
+  height: auto;
+  background-color: $secondary-one;
+  color: $primary-one;
+  z-index: 1;
 }
 
 //Hero Section
 
-  .hero{
-    width: 100%;
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  z-index: 1;
+  .container {
+    position: relative;
+    h1 {
+      font-family: Pirulen;
+      max-width: 770px;
+      font-size: 60px;
+      line-height: 95px;
+      margin: 25px 0 40px;
+    }
+    .btn-group {
+      max-width: 1486px;
+      a {
+        border: 2px solid #fff;
+        color: $primary-one;
+        padding: 25px 0;
+        font-weight: 700;
+        font-size: 15px;
+        width: 320px;
+        text-align: center;
+      }
+    }
+    .page-mark {
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+      font-family: Pirulen;
+      font-size: 18px;
+    }
+  }
+}
+
+//What We Do Section
+.what-we-do {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 20px;
+  background-color: $secondary-one;
+  color: $primary-one;
+  .container {
     height: auto;
-    padding: 50px 0;
-    z-index: 1;
-    .container{
-      position: relative;
-      h1{
-        font-family: Pirulen;
-        max-width: 770px;
-        font-size: 60px;
-        line-height: 95px;
-        margin: 25px 0 40px;
+    .left {
+      h2 {
+        font-size: 50px;
+        font-weight: 600;
+        max-width: 500px;
+        line-height: 60px;
+        letter-spacing: 3px;
+        overflow: hidden;
+        margin-bottom: 25px;
       }
-      .btn-group {
-        max-width: 1486px;
-        a {
-          border: 2px solid #fff;
-          color: $primary-one;
-          padding: 25px 0;
-          font-weight: 700;
-          font-size: 15px;
-          width: 320px;
-          text-align: center;
-        }
+      h3 {
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 42px;
+        letter-spacing: 1px;
+        overflow: hidden;
+        max-width: 500px;
       }
-      .page-mark{
-        position: absolute;
-        bottom: 0%;
-        right: 0%;
-        font-family: Pirulen;
-        font-size: 18px;
+      p {
+        font-weight: 400;
+        opacity: 0.6;
+        font-size: 19px;
+        max-width: 500px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+      }
+      .btn {
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 25px 50px;
+        font-weight: 700;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .right {
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }
+}
+
+//our service sec
+.our-service {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 20px;
+  background-color: $secondary-one;
+  color: $primary-one;
+  .container {
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-gap: 65px 0;
+      img {
+        height: 490px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .service {
+        .flex-wrapper {
+          gap: 25px;
+          height: auto;
+          h2 {
+            font-size: 50px;
+            font-weight: 600;
+            max-width: 500px;
+            line-height: 65px;
+            letter-spacing: 3px;
+            overflow: hidden;
+            margin-bottom: 15px;
+          }
+          p {
+            font-weight: 400;
+            opacity: 0.6;
+            font-size: 17px;
+            max-width: 580px;
+            line-height: 35px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+          }
+          .btn-group {
+            .btn {
+              padding: 25px 0;
+              font-weight: 700;
+              text-align: center;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .service.two{
+        img {
+          height: 590px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .service.three{
+        img {
+          height: 455px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

@@ -47,6 +47,7 @@ header {
         }
       }
       &.close {
+        overflow: hidden;
         .line {
           &:nth-child(1),
           &:nth-child(2) {
