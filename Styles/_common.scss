@@ -5,6 +5,13 @@
   overflow: hidden;
 }
 
+@font-face {
+  font-family: Pirulen;
+  src: url(../pirulen/pirulen-rg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   width: 100%;
@@ -39,7 +46,10 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
+.btn-group {
+  display: flex;
+  gap: 35px;
+}
 .left,
 .right {
   width: 50%;
@@ -67,16 +77,14 @@ $complemantory-color: #3d72a4;
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
-    .container{
-        width: 95%;
-    }
+  .container {
+    width: 95%;
+  }
 }
 
 /*Tablet View Media Queries starts*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .container{
-        width: 90%;
-    }
+  .container {
+    width: 90%;
+  }
 }
-
-

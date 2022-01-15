@@ -6,6 +6,13 @@
   overflow: hidden;
 }
 
+@font-face {
+  font-family: Pirulen;
+  src: url(../pirulen/pirulen-rg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   width: 100%;
@@ -49,6 +56,13 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
 }
 
 .left,
@@ -97,6 +111,13 @@ img {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: Pirulen;
+  src: url(../pirulen/pirulen-rg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   width: 100%;
@@ -140,6 +161,13 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
 }
 
 .left,
@@ -217,6 +245,7 @@ header .container .hamburger {
   width: 30px;
   height: 20px;
   position: relative;
+  cursor: pointer;
 }
 
 header .container .hamburger .line {
@@ -256,14 +285,6 @@ header .container .hamburger.close .line:nth-child(3) {
           transform: translateY(-9px) rotate(-45deg);
 }
 
-.bg-section {
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  color: #fff;
-  z-index: 1;
-}
-
 .nav {
   position: absolute;
   width: 100%;
@@ -271,8 +292,8 @@ header .container .hamburger.close .line:nth-child(3) {
   overflow: hidden;
   background-color: #000;
   left: 200%;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: 1.2s ease;
+  transition: 1.2s ease;
   z-index: 10;
 }
 
@@ -369,8 +390,16 @@ header .container .hamburger.close .line:nth-child(3) {
   z-index: 10;
   background-color: black;
   left: 0%;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
+
+.bg-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  z-index: 1;
 }
 
 .hero {
@@ -380,8 +409,37 @@ header .container .hamburger.close .line:nth-child(3) {
   z-index: 1;
 }
 
-.hero h1 {
-  color: white;
-  font-size: 40px;
+.hero .container {
+  position: relative;
+}
+
+.hero .container h1 {
+  font-family: Pirulen;
+  max-width: 770px;
+  font-size: 60px;
+  line-height: 95px;
+  margin: 25px 0 40px;
+}
+
+.hero .container .btn-group {
+  max-width: 1486px;
+}
+
+.hero .container .btn-group a {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 25px 0;
+  font-weight: 700;
+  font-size: 15px;
+  width: 320px;
+  text-align: center;
+}
+
+.hero .container .page-mark {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  font-family: Pirulen;
+  font-size: 18px;
 }
 /*# sourceMappingURL=index.css.map */

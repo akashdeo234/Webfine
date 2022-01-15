@@ -17,7 +17,7 @@ header {
         height: auto;
       }
     }
-    .h-logo.close{
+    .h-logo.close {
       display: none;
     }
     //header-styles
@@ -25,6 +25,7 @@ header {
       width: 30px;
       height: 20px;
       position: relative;
+      cursor: pointer;
       .line {
         display: block;
         width: 100%;
@@ -59,4 +60,84 @@ header {
       }
     }
   }
+}
+//header opens
+.nav {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: $secondary-one;
+  left: 200%;
+  transition: 1.2s ease;
+  z-index: 10;
+  .container {
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 80px;
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+    .flex-wrapper {
+      width: 100%;
+      .left {
+        flex: 1;
+        text-align: center;
+      }
+      .mid {
+        flex: 1;
+        text-align: center;
+      }
+      .right {
+        flex: 1;
+        text-align: center;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        a {
+          li {
+            font-size: 18px;
+          }
+        }
+      }
+      h6 {
+        color: $primary-one;
+        font-size: 28px;
+        position: relative;
+        display: inline;
+        padding-bottom: 15px;
+      }
+      h6::after {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        height: 3px;
+        background-color: $complemantory-color;
+      }
+    }
+    .bt-tag {
+      display: flex;
+      justify-content: center;
+      color: $primary-one;
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 50px;
+      font-weight: 500;
+      opacity: 0.5;
+    }
+  }
+}
+.nav.open {
+  z-index: 10;
+  background-color: black;
+  left: 0%;
+  transition: 1.5s ease;
 }
