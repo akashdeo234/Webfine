@@ -106,7 +106,7 @@
 .our-service {
   width: 100%;
   height: auto;
-  padding: 40px 0 20px;
+  padding: 40px 0 ;
   background-color: $secondary-one;
   color: $primary-one;
   .container {
@@ -131,7 +131,7 @@
             line-height: 65px;
             letter-spacing: 3px;
             overflow: hidden;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
           }
           p {
             font-weight: 400;
@@ -140,7 +140,7 @@
             max-width: 580px;
             line-height: 35px;
             letter-spacing: 1px;
-            margin-bottom: 30px;
+            margin-bottom: 33px;
           }
           .btn-group {
             .btn {
@@ -173,6 +173,22 @@
 //our-work
 .our-work {
   width: 100%;
+  position: relative;
+  .cartoon {
+    width: 300px;
+    height: auto;
+  }
+  .cartoon.one {
+    position: absolute;
+    top: 17%;
+    left: -4%;
+  }
+  .cartoon.two {
+    width: 400px;
+    position: absolute;
+    top: 41%;
+    right: -8%;
+  }
   .container {
     h1 {
       padding: 80px 0;
@@ -182,35 +198,35 @@
       max-width: 950px;
       letter-spacing: 2px;
     }
-    .card-wrapper{
+    .card-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       gap: 35px;
-      .card{
+      .card {
         height: auto;
         overflow: hidden;
         padding: 0px 0 80px;
-        img{
+        img {
           height: auto;
           width: 800px;
           object-fit: contain;
         }
-        .head{
+        .head {
           display: flex;
           align-items: center;
           font-size: 28px;
           font-weight: 800;
           padding-top: 30px;
           max-width: 1000px;
-          span{
+          span {
             width: 70px;
             height: 2px;
             background-color: #000;
             margin: 0 25px;
           }
         }
-        p{
+        p {
           padding: 10px 0 40px;
           font-size: 20px;
           opacity: 0.6;
@@ -225,10 +241,10 @@
           font-size: 16px;
         }
       }
-      .card.one{
+      .card.one {
         margin-left: auto;
       }
-      .card.three{
+      .card.three {
         margin-left: auto;
       }
     }

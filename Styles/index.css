@@ -530,7 +530,7 @@ header .container .hamburger.close .line:nth-child(3) {
 .our-service {
   width: 100%;
   height: auto;
-  padding: 40px 0 20px;
+  padding: 40px 0;
   background-color: #000;
   color: #fff;
 }
@@ -564,7 +564,7 @@ header .container .hamburger.close .line:nth-child(3) {
   line-height: 65px;
   letter-spacing: 3px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .our-service .container .grid-wrapper .service .flex-wrapper p {
@@ -574,7 +574,7 @@ header .container .hamburger.close .line:nth-child(3) {
   max-width: 580px;
   line-height: 35px;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .our-service .container .grid-wrapper .service .flex-wrapper .btn-group .btn {
@@ -600,6 +600,25 @@ header .container .hamburger.close .line:nth-child(3) {
 
 .our-work {
   width: 100%;
+  position: relative;
+}
+
+.our-work .cartoon {
+  width: 300px;
+  height: auto;
+}
+
+.our-work .cartoon.one {
+  position: absolute;
+  top: 17%;
+  left: -4%;
+}
+
+.our-work .cartoon.two {
+  width: 400px;
+  position: absolute;
+  top: 41%;
+  right: -8%;
 }
 
 .our-work .container h1 {
