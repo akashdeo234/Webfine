@@ -51,7 +51,7 @@
 .what-we-do {
   width: 100%;
   height: auto;
-  padding: 40px 0 20px;
+  padding: 40px 0 50px 0;
   background-color: $secondary-one;
   color: $primary-one;
   .container {
@@ -106,7 +106,7 @@
 .our-service {
   width: 100%;
   height: auto;
-  padding: 40px 0;
+  padding: 40px 0 100px 0;
   background-color: $secondary-one;
   color: $primary-one;
   .container {
@@ -253,13 +253,13 @@
 }
 
 //what-make-us-different
-.what-make-us-different{
+.what-make-us-different {
   width: 100%;
   height: auto;
-  padding: 40px 0;
+  padding: 40px 0 100px;
   background-color: $secondary-one;
   position: relative;
-  .cartoon.three{
+  .cartoon.three {
     width: 500px;
     height: auto;
     position: absolute;
@@ -267,9 +267,8 @@
     right: -12%;
     z-index: 1;
   }
-  .container{
-    
-    h1{
+  .container {
+    h1 {
       padding: 50px 0 120px;
       text-align: center;
       color: $primary-one;
@@ -280,33 +279,60 @@
       max-width: 900px;
       margin: 0% auto;
     }
-    .card-wrapper{
+    .card-wrapper {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       gap: 55px;
-      .card{
+      .card {
         z-index: 2;
         background-color: $primary-one;
         color: $secondary-one;
-        padding: 70px 120px 50px 50px;
+        padding: 40px;
         border-radius: 30px;
-        height: auto;
-        h2{
+        min-height: 250px;
+        h2 {
           font-size: 30px;
           padding-bottom: 20px;
           max-height: 450px;
           font-weight: 800;
         }
-        p{
+        p {
           max-height: 200px;
           font-size: 18px;
-          line-height: 175%;
+          line-height: 185%;
           font-weight: 500;
           overflow: hidden;
           opacity: 0.6;
         }
       }
     }
+  }
+}
+
+//technologies We Used
+.tech-we-used{
+  width: 100%;
+  height: auto;
+  padding: 40px 0 100px 0;
+  .container{
+    h1{
+      text-align: center;
+      padding: 50px 0 100px 0;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 60px;
+      letter-spacing: 5.5%;
+      max-width: 900px;
+      margin: 0% auto;
+    }
+   .flex-wrapper{
+     gap: 0 20px;
+     img{
+       width: 100px;
+       height: auto;
+       object-fit: contain;
+     }
+   }
   }
 }

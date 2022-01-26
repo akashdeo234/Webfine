@@ -474,7 +474,7 @@ header .container .hamburger.close .line:nth-child(3) {
 .what-we-do {
   width: 100%;
   height: auto;
-  padding: 40px 0 20px;
+  padding: 40px 0 50px 0;
   background-color: #000;
   color: #fff;
 }
@@ -530,7 +530,7 @@ header .container .hamburger.close .line:nth-child(3) {
 .our-service {
   width: 100%;
   height: auto;
-  padding: 40px 0;
+  padding: 40px 0 100px 0;
   background-color: #000;
   color: #fff;
 }
@@ -704,7 +704,7 @@ header .container .hamburger.close .line:nth-child(3) {
 .what-make-us-different {
   width: 100%;
   height: auto;
-  padding: 40px 0;
+  padding: 40px 0 100px;
   background-color: #000;
   position: relative;
 }
@@ -744,9 +744,9 @@ header .container .hamburger.close .line:nth-child(3) {
   z-index: 2;
   background-color: #fff;
   color: #000;
-  padding: 70px 120px 50px 50px;
+  padding: 40px;
   border-radius: 30px;
-  height: auto;
+  min-height: 250px;
 }
 
 .what-make-us-different .container .card-wrapper .card h2 {
@@ -759,9 +759,37 @@ header .container .hamburger.close .line:nth-child(3) {
 .what-make-us-different .container .card-wrapper .card p {
   max-height: 200px;
   font-size: 18px;
-  line-height: 175%;
+  line-height: 185%;
   font-weight: 500;
   overflow: hidden;
   opacity: 0.6;
+}
+
+.tech-we-used {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 100px 0;
+}
+
+.tech-we-used .container h1 {
+  text-align: center;
+  padding: 50px 0 100px 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 5.5%;
+  max-width: 900px;
+  margin: 0% auto;
+}
+
+.tech-we-used .container .flex-wrapper {
+  gap: 0 20px;
+}
+
+.tech-we-used .container .flex-wrapper img {
+  width: 100px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 /*# sourceMappingURL=index.css.map */
