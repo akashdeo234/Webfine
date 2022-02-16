@@ -16,6 +16,9 @@
 body,
 html {
   width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -70,6 +73,7 @@ img {
 $primary-one: #fff;
 $secondary-one: #000;
 $complemantory-color: #3d72a4;
+$card-bg : #101010;
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {

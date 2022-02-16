@@ -18,6 +18,9 @@
 body,
 html {
   width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -134,6 +137,9 @@ img {
 body,
 html {
   width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -742,8 +748,8 @@ header .container .hamburger.close .line:nth-child(3) {
 
 .what-make-us-different .container .card-wrapper .card {
   z-index: 2;
-  background-color: #fff;
-  color: #000;
+  background-color: #101010;
+  color: #fff;
   padding: 40px;
   border-radius: 30px;
   min-height: 250px;
@@ -791,5 +797,56 @@ header .container .hamburger.close .line:nth-child(3) {
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.our-approcah-sec {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 100px 0;
+  background-color: #000;
+}
+
+.our-approcah-sec .container h1 {
+  color: #fff;
+  text-align: start;
+  padding: 50px 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 5.5%;
+}
+
+.our-approcah-sec .container .flex-wrapper {
+  gap: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.our-approcah-sec .container .flex-wrapper .card {
+  background-color: #101010;
+  color: #fff;
+  width: 364px;
+  height: auto;
+  padding: 45px;
+}
+
+.our-approcah-sec .container .flex-wrapper .card span {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.our-approcah-sec .container .flex-wrapper .card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 0 20px 0;
+}
+
+.our-approcah-sec .container .flex-wrapper .card p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27px;
 }
 /*# sourceMappingURL=index.css.map */

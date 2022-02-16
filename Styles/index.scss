@@ -286,8 +286,8 @@
       gap: 55px;
       .card {
         z-index: 2;
-        background-color: $primary-one;
-        color: $secondary-one;
+        background-color: $card-bg;
+        color: $primary-one;
         padding: 40px;
         border-radius: 30px;
         min-height: 250px;
@@ -334,5 +334,50 @@
        object-fit: contain;
      }
    }
+  }
+}
+
+// our approcah section
+.our-approcah-sec{
+  width: 100%;
+  height: auto;
+  padding: 40px 0 100px 0;
+  background-color: $secondary-one;
+  .container{
+    h1{
+      color: $primary-one;
+      text-align: start;
+      padding: 50px 0;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 60px;
+      letter-spacing: 5.5%;
+    }
+    .flex-wrapper{
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .card{
+        background-color: $card-bg;
+        color: $primary-one;
+        width: 364px;
+        height: auto;
+        padding: 45px;
+        span{
+          font-size: 40px;
+          font-weight: 800;
+        }
+        h2{
+          font-size: 20px;
+          font-weight: 600;
+          padding: 30px 0 20px 0;
+        }
+        p{
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 27px;
+        }
+      }
+    }
   }
 }
