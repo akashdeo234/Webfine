@@ -1,0 +1,201 @@
+@import "../common";
+@import "../header";
+@import "../footer";
+
+@font-face {
+  font-family: Pirulen;
+  src: url(/pirulen/pirulen-rg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-section {
+  width: 100%;
+  height: auto;
+  background-color: $secondary-one;
+  color: $primary-one;
+  z-index: 1;
+}
+
+//Hero Section
+
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  z-index: 1;
+  .container {
+    position: relative;
+    h1 {
+      font-family: Pirulen;
+      max-width: 770px;
+      font-size: 60px;
+      line-height: 95px;
+      margin: 25px 0 40px;
+    }
+    .btn-group {
+      max-width: 1486px;
+      a {
+        border: 2px solid #fff;
+        color: $primary-one;
+        padding: 25px 0;
+        font-weight: 700;
+        font-size: 15px;
+        width: 320px;
+        text-align: center;
+      }
+    }
+    .page-mark {
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+      font-family: Pirulen;
+      font-size: 18px;
+    }
+  }
+}
+
+//simple about section
+.simp-about {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 50px 0;
+  background-color: $secondary-one;
+  color: $primary-one;
+  .container {
+    width: 75%;
+    h1 {
+      overflow: hidden;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 50px;
+      text-align: center;
+      span {
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+//who we are section
+.who-we-are-section {
+  width: 100%;
+  height: auto;
+  padding: 80px 0 50px 0;
+  background-color: $secondary-one;
+  color: $primary-one;
+  position: relative;
+  .cartoon-one{
+    height: auto;
+    width: 300px;
+    position: absolute;
+    top: -3%;
+    right: -9%;
+  }
+  .container {
+    .first {
+      padding-bottom: 45px;
+      .title {
+        text-align: start;
+        font-size: 35px;
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 32px;
+        width: 100%;
+      }
+      .title::after {
+        content: "";
+        background: $complemantory-color;
+        height: 4px;
+        position: absolute;
+        left: 1%;
+        bottom: 0;
+        width: 120px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 45px;
+        font-weight: 500;
+      }
+    }
+    .second {
+      .title {
+        text-align: start;
+        font-size: 35px;
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 32px;
+        width: 100%;
+      }
+      .title::after {
+        content: "";
+        background: $complemantory-color;
+        height: 4px;
+        position: absolute;
+        left: 1%;
+        bottom: 0;
+        width: 120px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 45px;
+        font-weight: 500;
+        padding-bottom: 25px;
+        span{
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+
+//lets get wo work section
+.Lets-go-to-the-work{
+  width: 100%;
+    height: auto;
+    padding: 40px 0 50px 0;
+    background-color: $primary-one;
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .big-card{
+        padding-top: 3%;
+        h1{
+          font-size: 60px;
+          font-weight: 700;
+          text-align: center;
+          padding-bottom: 20px;
+          letter-spacing: 2px;
+        }
+        h4{
+          font-size: 25px;
+          text-align: center;
+          font-weight: 500;
+          max-width: 500px;
+          margin: 0% auto;
+          line-height: 35px;
+          padding-bottom: 30px;
+          letter-spacing: 1px;
+        }
+        .btn-group{
+          display: flex;
+          align-items: center;
+          img{
+            width: 200px;
+            height: 15px;
+          }
+          .btn {
+            border: 1px solid #000;
+            color: #000;
+            padding: 20px 20px;
+            font-weight: 700;
+            text-align: center;
+            font-size: 15px;
+            width: 200px;
+          }
+        }
+        }
+      }
+    }
+
