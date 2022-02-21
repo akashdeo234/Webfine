@@ -716,21 +716,21 @@ img {
   font-size: 18px;
 }
 
-.smm-section {
+.ui-ux-section {
   width: 100%;
   height: auto;
   padding: 80px 0 100px 0;
   overflow: hidden;
 }
 
-.smm-section .container h2 {
+.ui-ux-section .container h2 {
   text-align: center;
   font-size: 15px;
   font-weight: 600;
   opacity: 0.7;
 }
 
-.smm-section .container h1 {
+.ui-ux-section .container h1 {
   text-align: center;
   font-size: 60px;
   max-width: 700px;
@@ -742,11 +742,11 @@ img {
   padding: 20px 0 80px 0;
 }
 
-.smm-section .container .flex-wrapper {
+.ui-ux-section .container .flex-wrapper {
   gap: 0 40px;
 }
 
-.smm-section .container .flex-wrapper .left {
+.ui-ux-section .container .flex-wrapper .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -757,14 +757,14 @@ img {
   gap: 30px;
 }
 
-.smm-section .container .flex-wrapper .left img {
+.ui-ux-section .container .flex-wrapper .left img {
   width: 100%;
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.smm-section .container .flex-wrapper .right {
+.ui-ux-section .container .flex-wrapper .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -778,7 +778,7 @@ img {
   gap: 15px 0;
 }
 
-.smm-section .container .flex-wrapper .right .r-title {
+.ui-ux-section .container .flex-wrapper .right .r-title {
   text-align: start;
   font-size: 30px;
   letter-spacing: 4px;
@@ -788,35 +788,35 @@ img {
   line-height: 40px;
 }
 
-.smm-section .container .flex-wrapper .right p {
+.ui-ux-section .container .flex-wrapper .right p {
   font-size: 17px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.smm-section .container .flex-wrapper.special {
+.ui-ux-section .container .flex-wrapper.special {
   padding-top: 60px;
 }
 
-.smm-section .container .flex-wrapper.special .left {
+.ui-ux-section .container .flex-wrapper.special .left {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   gap: 40px 0;
 }
 
-.smm-section .container .flex-wrapper.special .left img {
+.ui-ux-section .container .flex-wrapper.special .left img {
   height: 380px;
 }
 
-.smm-section .container .flex-wrapper.special .right .title {
+.ui-ux-section .container .flex-wrapper.special .right .title {
   font-size: 37px;
   text-align: start;
   opacity: 1;
   font-weight: 600;
 }
 
-.smm-section .container .flex-wrapper.special .right h6 {
+.ui-ux-section .container .flex-wrapper.special .right h6 {
   font-weight: 400;
   line-height: 30px;
   font-size: 15px;
@@ -1037,4 +1037,4 @@ img {
   font-size: 15px;
   width: 200px;
 }
-/*# sourceMappingURL=smm.css.map */
+/*# sourceMappingURL=ui-design.css.map */
