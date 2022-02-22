@@ -784,10 +784,11 @@ img {
 }
 
 .our-service .container .grid-wrapper img {
-  height: 490px;
+  height: 98%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: hidden;
 }
 
 .our-service .container .grid-wrapper .service .flex-wrapper {
@@ -823,17 +824,19 @@ img {
 }
 
 .our-service .container .grid-wrapper .service.two img {
-  height: 590px;
+  height: 99%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: hidden;
 }
 
 .our-service .container .grid-wrapper .service.three img {
-  height: 455px;
+  height: 98%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow-x: hidden;
 }
 
 .our-work {

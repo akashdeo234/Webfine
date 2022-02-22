@@ -117,15 +117,16 @@
       grid-template-rows: auto;
       grid-gap: 65px 0;
       img {
-        height: 490px;
+        height: 98%;
         width: 100%;
         object-fit: cover;
+        overflow: hidden;
       }
       .service {
         .flex-wrapper {
           gap: 25px;
           height: auto;
-          h2 {
+          h2{
             font-size: 50px;
             font-weight: 600;
             max-width: 500px;
@@ -155,16 +156,18 @@
       }
       .service.two {
         img {
-          height: 590px;
+          height: 99%;
           width: 100%;
           object-fit: cover;
+          overflow: hidden;
         }
       }
       .service.three {
         img {
-          height: 455px;
+          height: 98%;
           width: 100%;
           object-fit: cover;
+          overflow-x: hidden;
         }
       }
     }
