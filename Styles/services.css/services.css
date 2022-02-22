@@ -921,6 +921,7 @@ img {
   font-weight: 700;
   text-align: center;
   font-size: 15px;
-  width: 200px;
+  width: 50%;
+  margin: 0% auto;
 }
 /*# sourceMappingURL=services.css.map */
