@@ -33,6 +33,10 @@
       line-height: 95px;
       margin: 25px 0 40px;
     }
+    .long-title{
+      font-size: 50px;
+      max-width: 900px;
+    }
     .btn-group {
       max-width: 1486px;
       a {
@@ -59,7 +63,7 @@
 .web-design-section {
   width: 100%;
   height: auto;
-  padding: 80px 0 100px 0;
+  padding: 50px 0px 0 0;
   overflow: hidden;
   .container {
     h2 {
@@ -68,7 +72,7 @@
       font-weight: 600;
       opacity: 0.7;
     }
-    h1 {
+    .r-title {
       text-align: center;
       font-size: 60px;
       max-width: 700px;
@@ -87,7 +91,7 @@
         gap: 30px;
         img {
           width: 100%;
-          height: 280px;
+          height: 50%;
           object-fit: cover;
         }
       }
@@ -95,10 +99,25 @@
         display: flex;
         flex-direction: column;
         gap: 15px 0;
+        h1 {
+          font-size: 30px;
+          padding: 0%;
+          line-height: 45px;
+          overflow: hidden;
+        }
         p {
           font-size: 17px;
           font-weight: 500;
           line-height: 32px;
+        }
+        .btn {
+          border: 2px solid #000;
+          color: $secondary-one;
+          padding: 25px 0;
+          font-weight: 700;
+          font-size: 15px;
+          width: 320px;
+          text-align: center;
         }
       }
     }
@@ -107,16 +126,20 @@
       .left {
         order: 2;
         gap: 40px 0;
-        img{
-        height: 380px;
+        img {
+          width: 100%;
+          height: 43%;
+          object-fit: cover;
         }
       }
       .right {
         .title {
-          font-size: 37px;
+          font-size: 35px;
           text-align: start;
           opacity: 1;
           font-weight: 600;
+          line-height: 55px;
+          overflow: hidden;
         }
         h6 {
           font-weight: 400;
@@ -151,144 +174,328 @@
           }
         }
         .btn {
-            border: 2px solid #000;
-            color: #000;
-            padding: 20px 20px;
-            font-weight: 700;
-            text-align: center;
-            font-size: 15px;
-          }
+          border: 2px solid #000;
+          color: #000;
+          padding: 20px 20px;
+          font-weight: 700;
+          text-align: center;
+          font-size: 15px;
+          width: 100%;
+          text-align: center;
+        }
       }
     }
   }
 }
 
 //faq section
-.faq-section{
-    width: 100%;
+.faq-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 100px 0;
+  background-color: $secondary-one;
+  color: $primary-one;
+  position: relative;
+  overflow: hidden;
+  .cartoon-one {
     height: auto;
-    padding: 40px 0 100px 0;
-    background-color: $secondary-one;
-    color: $primary-one;
-    position: relative;
-    overflow: hidden;
-    .cartoon-one {
-      height: auto;
-      width: 250px;
-      position: absolute;
-      top: 2%;
-      right: -7%;
+    width: 250px;
+    position: absolute;
+    top: 2%;
+    right: -7%;
+  }
+  .container {
+    h1 {
+      font-size: 55px;
+      max-width: 600px;
+      line-height: 70px;
+      overflow: hidden;
+      font-weight: 600;
+      padding-bottom: 35px;
+      letter-spacing: 2px;
     }
-    .container{
-      h1 {
-        font-size: 55px;
-        max-width: 600px;
-        line-height: 70px;
-        overflow: hidden;
-        font-weight: 600;
-        padding-bottom: 35px;
-        letter-spacing: 2px;
-      }
-      p{
-        font-weight: 400;
-        font-size: 18px;
-         max-width: 600px;
-         line-height: 25px;
-         padding-bottom: 50px;
-      }
-      //faq
-      .accordion {
-        display: flex;
-        flex-direction: column;
-        gap: 30px 0;
-        .accordion-item {
-          border-bottom: 1px solid $primary-one;
-          button[aria-expanded='true'] {
-            border-bottom: 1px solid $complemantory-color;
-          }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      max-width: 600px;
+      line-height: 25px;
+      padding-bottom: 50px;
+    }
+    //faq
+    .accordion {
+      display: flex;
+      flex-direction: column;
+      gap: 30px 0;
+      .accordion-item {
+        border-bottom: 1px solid $primary-one;
+        button[aria-expanded="true"] {
+          border-bottom: 1px solid $complemantory-color;
         }
-        button {
-          position: relative;
-          display: block;
-          text-align: left;
-          width: 100%;
-          padding: 1em 0;
-          color: $primary-one;
-          font-size: 1.15rem;
-          font-weight: 500;
-          letter-spacing: 1px;
-          border: none;
-          background: none;
-          outline: none;
-          &:hover, &:focus {
+      }
+      button {
+        position: relative;
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        color: $primary-one;
+        font-size: 1.15rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border: none;
+        background: none;
+        outline: none;
+        &:hover,
+        &:focus {
+          cursor: pointer;
+          color: $complemantory-color;
+          &::after {
             cursor: pointer;
             color: $complemantory-color;
-            &::after {
-              cursor: pointer;
-              color: $complemantory-color;
-              border: 1px solid $complemantory-color;
-            }
+            border: 1px solid $complemantory-color;
           }
-          .accordion-title {
-            padding: 1em 1.5em 1em 0;
-          }
-          .icon {
-            display: inline-block;
+        }
+        .accordion-title {
+          padding: 1em 1.5em 1em 0;
+        }
+        .icon {
+          display: inline-block;
+          position: absolute;
+          top: 18px;
+          right: 0;
+          width: 22px;
+          height: 22px;
+          border: 1px solid;
+          border-radius: 22px;
+          &::before {
+            display: block;
             position: absolute;
-            top: 18px;
-            right: 0;
-            width: 22px;
-            height: 22px;
-            border: 1px solid;
-            border-radius: 22px;
-            &::before {
-              display: block;
-              position: absolute;
-              content: '';
-              top: 9px;
-              left: 5px;
-              width: 10px;
-              height: 2px;
-              background: currentColor;
-            }
-            &::after {
-              display: block;
-              position: absolute;
-              content: '';
-              top: 5px;
-              left: 9px;
-              width: 2px;
-              height: 10px;
-              background: currentColor;
-            }
+            content: "";
+            top: 9px;
+            left: 5px;
+            width: 10px;
+            height: 2px;
+            background: currentColor;
+          }
+          &::after {
+            display: block;
+            position: absolute;
+            content: "";
+            top: 5px;
+            left: 9px;
+            width: 2px;
+            height: 10px;
+            background: currentColor;
           }
         }
-        button[aria-expanded='true'] {
-          color: $complemantory-color;
-          .icon {
-            &::after {
-              width: 0;
-            }
-          }
-          + .accordion-content {
-            opacity: 1;
-            max-height: 9em;
-            transition: all 200ms linear;
-            will-change: opacity, max-height;
+      }
+      button[aria-expanded="true"] {
+        color: $complemantory-color;
+        .icon {
+          &::after {
+            width: 0;
           }
         }
-        .accordion-content {
-          opacity: 0;
-          max-height: 0;
-          overflow: hidden;
-          transition: opacity 200ms linear, max-height 200ms linear;
+        + .accordion-content {
+          opacity: 1;
+          max-height: 9em;
+          transition: all 200ms linear;
           will-change: opacity, max-height;
+        }
+      }
+      .accordion-content {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 200ms linear, max-height 200ms linear;
+        will-change: opacity, max-height;
+        p {
+          font-size: 1rem;
+          font-weight: 500;
+          margin: 2em 0;
+        }
+      }
+    }
+  }
+}
+
+//why choose us
+.why-choose-us {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  background-color: $secondary-one;
+  color: $primary-one;
+  overflow: hidden;
+  .container {
+    .title {
+      text-align: center;
+      font-size: 35px;
+      padding-bottom: 30px;
+    }
+    .main-text {
+      font-weight: 400;
+      text-align: center;
+      font-size: 18px;
+      line-height: 33px;
+      max-width: 1000px;
+      margin: 0% auto;
+      padding-bottom: 50px;
+    }
+    .card-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 55px;
+      padding-bottom: 50px;
+      .card {
+        z-index: 2;
+        background-color: $card-bg;
+        color: $primary-one;
+        padding: 40px;
+        border-radius: 30px;
+        min-height: 250px;
+        h2 {
+          font-size: 30px;
+          padding-bottom: 20px;
+          max-height: 450px;
+          font-weight: 800;
+        }
+        p {
+          max-height: 200px;
+          font-size: 18px;
+          line-height: 185%;
+          font-weight: 500;
+          overflow: hidden;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+
+//web design services
+.web-design-services {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  background-color: $primary-one;
+  color: $secondary-one;
+  overflow: hidden;
+  .container {
+    .title {
+      text-align: center;
+      font-size: 50px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      span {
+        color: $complemantory-color;
+      }
+    }
+    .sub-title {
+      font-weight: 500;
+      text-align: center;
+      font-size: 20px;
+      line-height: 33px;
+      max-width: 1000px;
+      margin: 0% auto;
+      padding-bottom: 100px;
+    }
+    .card-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 50px;
+      padding-bottom: 50px;
+      .card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: $card-bg;
+        color: $primary-one;
+        padding: 30px 17px 25px 17px;
+        border-radius: 10px;
+
+        .left {
+          width: 23%;
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            -webkit-filter: invert(100%); /* Safari/Chrome */
+            filter: invert(100%);
+          }
+        }
+        .right {
+          width: 77%;
+          h1 {
+            font-size: 20px;
+            line-height: 30px;
+            padding-bottom: 15px;
+            color: $primary-one;
+          }
           p {
-            font-size: 1rem;
-            font-weight: 500;
-            margin: 2em 0;
+            font-size: 15px;
+            line-height: 25px;
+            span {
+              color: $complemantory-color;
+              font-weight: 700;
+            }
           }
         }
       }
     }
   }
+}
+
+
+//lets get wo work section
+.Lets-go-to-the-work {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 50px 0;
+  background-color: $primary-one;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .big-card {
+      padding-top: 3%;
+      h1 {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+      }
+      h4 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        max-width: 500px;
+        margin: 0% auto;
+        line-height: 35px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+      }
+      .btn-group {
+        display: flex;
+        align-items: center;
+        img {
+          width: 200px;
+          height: 15px;
+        }
+        .btn {
+          border: 1px solid #000;
+          color: #000;
+          padding: 20px 20px;
+          font-weight: 700;
+          text-align: center;
+          font-size: 15px;
+          width: 40%;
+          margin: 0% auto;
+        }
+      }
+    }
+  }
+}
