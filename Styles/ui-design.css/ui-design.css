@@ -125,6 +125,13 @@ img {
   }
 }
 
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
+  }
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -246,6 +253,13 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 90%;
+  }
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
   }
 }
 
@@ -560,6 +574,13 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 90%;
+  }
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
   }
 }
 
@@ -951,7 +972,7 @@ img {
 
 .faq-section .container .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 12em;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   will-change: opacity, max-height;

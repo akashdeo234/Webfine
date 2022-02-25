@@ -111,3 +111,10 @@ $card-bg : #101010;
     width: 90%;
   }
 }
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container{
+    width: 85%;
+  }
+}

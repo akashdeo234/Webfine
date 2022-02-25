@@ -125,6 +125,13 @@ img {
   }
 }
 
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
+  }
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -246,6 +253,13 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 90%;
+  }
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
   }
 }
 
@@ -560,6 +574,13 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 90%;
+  }
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 85%;
   }
 }
 
@@ -1204,5 +1225,151 @@ img {
   font-weight: 700;
   text-align: center;
   font-size: 10px;
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero .container h1 {
+    max-width: 900px;
+    font-size: 70px;
+    line-height: 100px;
+  }
+  .what-we-do .container .flex-wrapper .left h2 {
+    font-size: 61px;
+    font-weight: 600;
+    max-width: 650px;
+    line-height: 71px;
+  }
+  .what-we-do .container .flex-wrapper .left h3 {
+    font-size: 38px;
+    line-height: 60px;
+    max-width: 650px;
+  }
+  .what-we-do .container .flex-wrapper .left p {
+    font-size: 26px;
+    max-width: 675px;
+    line-height: 55px;
+  }
+  .what-we-do .container .flex-wrapper .left .btn {
+    padding: 35px 50px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 90px;
+  }
+  .our-service .container .grid-wrapper img {
+    height: 100%;
+  }
+  .our-service .container .grid-wrapper .service.two img,
+  .our-service .container .grid-wrapper .service.three img {
+    height: 100%;
+  }
+  .our-service .container .grid-wrapper .service .flex-wrapper .btn-group .btn {
+    padding: 30px 0;
+    font-size: 18px;
+  }
+  .our-service .container .grid-wrapper .service .flex-wrapper .right h2,
+  .our-service .container .grid-wrapper .service .flex-wrapper .left h2 {
+    font-size: 61px;
+    font-weight: 600;
+    max-width: 800px;
+    line-height: 90px;
+  }
+  .our-service .container .grid-wrapper .service .flex-wrapper .right p,
+  .our-service .container .grid-wrapper .service .flex-wrapper .left p {
+    font-size: 26px;
+    max-width: 800px;
+    line-height: 55px;
+  }
+  .our-work .container h1 {
+    padding: 80px 0 111px;
+    font-size: 45px;
+    line-height: 168%;
+    max-width: 1122px;
+  }
+  .our-work .container .card-wrapper .card img {
+    width: 900px;
+  }
+  .our-work .container .card-wrapper .card .head {
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  .our-work .container .card-wrapper .card p {
+    padding: 14px 0 50px;
+    font-size: 25px;
+  }
+  .our-work .container .card-wrapper .card .btn {
+    font-size: 20px;
+  }
+  .what-make-us-different .container h1 {
+    font-size: 60px;
+    line-height: 81px;
+    max-width: 1087px;
+  }
+  .what-make-us-different .container .card-wrapper .card h2 {
+    font-size: 35px;
+    padding-bottom: 22px;
+  }
+  .what-make-us-different .container .card-wrapper .card p {
+    font-size: 22px;
+    line-height: 217%;
+  }
+  .tech-we-used .container h1 {
+    font-size: 60px;
+    line-height: 81px;
+    max-width: 1087px;
+  }
+  .tech-we-used .container .flex-wrapper img {
+    width: 150px;
+  }
+  .our-approcah-sec .container h1 {
+    padding: 60px 0 80px;
+    font-size: 60px;
+  }
+  .our-approcah-sec .container .flex-wrapper .card {
+    width: 32.6%;
+  }
+  .our-approcah-sec .container .flex-wrapper .card span {
+    font-size: 45px;
+  }
+  .our-approcah-sec .container .flex-wrapper .card h2 {
+    font-size: 30px;
+    padding: 30px 0 25px 0;
+  }
+  .our-approcah-sec .container .flex-wrapper .card p {
+    font-size: 21px;
+    line-height: 45px;
+  }
+  .testimonial-sec .container .flex-wrapper .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 82px;
+  }
+  .testimonial-sec .container .flex-wrapper .left h2 {
+    font-size: 22px;
+    max-width: 558px;
+    line-height: 40px;
+  }
+  .testimonial-sec .container .flex-wrapper .left .btn {
+    font-size: 16px;
+  }
+  .testimonial-sec .container .flex-wrapper .right .flex-wrapper .card .flex-wrapper .right h2 {
+    font-size: 25px;
+  }
+  .testimonial-sec .container .flex-wrapper .right .flex-wrapper .card .flex-wrapper .right h6 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 19px 0;
+  }
+  .testimonial-sec .container .flex-wrapper .right .flex-wrapper .card .flex-wrapper .right p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    padding-bottom: 42px;
+    max-width: 360px;
+  }
+  .testimonial-sec .container .flex-wrapper .right .flex-wrapper .card .flex-wrapper .right .btn {
+    font-size: 13px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
