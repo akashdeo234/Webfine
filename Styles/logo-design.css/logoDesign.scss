@@ -271,50 +271,161 @@
 
 //lets get wo work section
 .Lets-go-to-the-work {
-    width: 100%;
-    height: auto;
-    padding: 40px 0 50px 0;
-    background-color: $primary-one;
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .big-card {
-        padding-top: 3%;
-        h1 {
-          font-size: 60px;
+  width: 100%;
+  height: auto;
+  padding: 40px 0 50px 0;
+  background-color: $primary-one;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .big-card {
+      padding-top: 3%;
+      h1 {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+      }
+      h4 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        max-width: 500px;
+        margin: 0% auto;
+        line-height: 35px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+      }
+      .btn-group {
+        display: flex;
+        align-items: center;
+        img {
+          width: 200px;
+          height: 15px;
+        }
+        .btn {
+          border: 1px solid #000;
+          color: #000;
+          padding: 20px 20px;
           font-weight: 700;
           text-align: center;
-          padding-bottom: 20px;
-          letter-spacing: 2px;
+          font-size: 15px;
+          width: 200px;
         }
-        h4 {
-          font-size: 25px;
-          text-align: center;
-          font-weight: 500;
-          max-width: 500px;
-          margin: 0% auto;
-          line-height: 35px;
-          padding-bottom: 30px;
-          letter-spacing: 1px;
-        }
-        .btn-group {
-          display: flex;
-          align-items: center;
-          img {
-            width: 200px;
-            height: 15px;
+      }
+    }
+  }
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero {
+    .container {
+      h1 {
+        max-width: 900px;
+        font-size: 70px;
+        line-height: 100px;
+      }
+    }
+  }
+  //logo design sec
+  .logo-design-section {
+    padding: 80px 0 110px 0;
+    .container {
+      h2 {
+        font-size: 23px;
+      }
+      h1 {
+        font-size: 70px;
+        max-width: 821px;
+        line-height: 78px;
+      }
+      .flex-wrapper {
+        .right {
+          .r-title {
+            margin: 0%;
+            font-size: 42px;
           }
-          .btn {
-            border: 1px solid #000;
-            color: #000;
-            padding: 20px 20px;
-            font-weight: 700;
-            text-align: center;
-            font-size: 15px;
-            width: 200px;
+          p {
+            font-size: 23px;
+            line-height: 46px;
+          }
+        }
+        .left {
+          img {
+            height: 385px;
           }
         }
       }
     }
   }
+  //faq section
+  .faq-section {
+    padding: 80px 0 100px 0;
+    .cartoon-one {
+      width: 350px;
+      top: -8%;
+    }
+    .container {
+      h1 {
+        font-size: 65px;
+        max-width: 720px;
+        line-height: 75px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 23px;
+        max-width: 618px;
+        line-height: 38px;
+        letter-spacing: 1px;
+      }
+      .accordion {
+        button {
+          font-size: 2rem;
+          font-weight: 600;
+        }
+        .accordion-content {
+          //max-height: 15em;
+          p {
+            font-size: 1.5rem;
+            max-width: 1400px;
+          }
+        }
+        button[aria-expanded="true"] {
+          .icon {
+            &::after {
+              width: 0%;
+            }
+          }
+          + .accordion-content {
+            max-height: 28.5em;
+          }
+        }
+      }
+    }
+  }
+  //lets get to work sec
+  .Lets-go-to-the-work {
+    padding: 80px 0;
+    .container {
+      .big-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          max-width: 950px;
+          margin: 0% auto;
+        }
+        .btn-group {
+          .btn {
+            padding: 25px 25px;
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

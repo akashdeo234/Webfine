@@ -1154,4 +1154,92 @@ img {
   font-size: 15px;
   width: 200px;
 }
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero .container h1 {
+    max-width: 900px;
+    font-size: 70px;
+    line-height: 100px;
+  }
+  .logo-design-section {
+    padding: 80px 0 110px 0;
+  }
+  .logo-design-section .container h2 {
+    font-size: 23px;
+  }
+  .logo-design-section .container h1 {
+    font-size: 70px;
+    max-width: 821px;
+    line-height: 78px;
+  }
+  .logo-design-section .container .flex-wrapper .right .r-title {
+    margin: 0%;
+    font-size: 42px;
+  }
+  .logo-design-section .container .flex-wrapper .right p {
+    font-size: 23px;
+    line-height: 46px;
+  }
+  .logo-design-section .container .flex-wrapper .left img {
+    height: 385px;
+  }
+  .faq-section {
+    padding: 80px 0 100px 0;
+  }
+  .faq-section .cartoon-one {
+    width: 350px;
+    top: -8%;
+  }
+  .faq-section .container h1 {
+    font-size: 65px;
+    max-width: 720px;
+    line-height: 75px;
+  }
+  .faq-section .container p {
+    font-weight: 500;
+    font-size: 23px;
+    max-width: 618px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  }
+  .faq-section .container .accordion button {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .faq-section .container .accordion .accordion-content p {
+    font-size: 1.5rem;
+    max-width: 1400px;
+  }
+  .faq-section .container .accordion button[aria-expanded="true"] .icon::after {
+    width: 0%;
+  }
+  .faq-section .container .accordion button[aria-expanded="true"] + .accordion-content {
+    max-height: 28.5em;
+  }
+  .Lets-go-to-the-work {
+    padding: 80px 0;
+  }
+  .Lets-go-to-the-work .container .big-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Lets-go-to-the-work .container .big-card h1 {
+    max-width: 950px;
+    margin: 0% auto;
+  }
+  .Lets-go-to-the-work .container .big-card .btn-group .btn {
+    padding: 25px 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=logoDesign.css.map */
