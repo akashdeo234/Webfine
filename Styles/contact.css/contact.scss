@@ -197,3 +197,96 @@
     }
   }
 }
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero {
+    .container {
+      h1 {
+        max-width: 900px;
+        font-size: 70px;
+        line-height: 100px;
+      }
+    }
+  }
+  //chat sec
+  .chat-section {
+    padding: 80px 0 0px;
+    .container {
+      .flex-wrapper {
+        .left {
+          h1 {
+            font-size: 75px;
+          }
+          h5 {
+            font-size: 23px;
+          }
+          h6 {
+            font-size: 24px;
+          }
+          img {
+            height: 400px;
+          }
+        }
+        .right {
+          padding-top: 26px;
+          form {
+            .first,
+            .second,
+            .third {
+              margin-bottom: 65px;
+              input {
+                height: 70px;
+                font-size: 18px;
+              }
+            }
+            .btn {
+              padding: 30px 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //follow us sec
+  .follow-us-section {
+    padding: 90px 0 125px 0;
+    .container {
+      .flex-wrapper {
+        gap: 0 50px;
+        .left {
+          img {
+            height: 500px;
+          }
+        }
+        .right {
+          h2 {
+            font-size: 55px;
+            line-height: 65px;
+            max-width: 700px;
+          }
+          h5 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 48px;
+            max-width: 616px;
+          }
+          p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 48px;
+            max-width: 616px;
+          }
+          .flex-wrapper {
+            a {
+              img {
+                width: 75px;
+                height: 75px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

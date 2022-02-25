@@ -453,6 +453,27 @@ header .container .hamburger.close .line:nth-child(3) {
   transition: 1.5s ease;
 }
 
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .nav .container .logo img {
+    width: 500px;
+  }
+  .nav .container .flex-wrapper h6 {
+    font-size: 35px;
+    padding-bottom: 17px;
+  }
+  .nav .container .flex-wrapper .links {
+    gap: 50px;
+  }
+  .nav .container .flex-wrapper .links a li {
+    font-size: 23px;
+  }
+  .nav .container .bt-tag {
+    padding: 55px 0;
+    font-size: 18px;
+  }
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -679,6 +700,82 @@ img {
   margin-top: 50px;
   font-weight: 500;
   opacity: 0.5;
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .footer .container .logo {
+    padding-top: 50px;
+  }
+  .footer .container .logo img {
+    width: 500px;
+  }
+  .footer .container .flex-wrapper {
+    width: 100%;
+  }
+  .footer .container .flex-wrapper .left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+  }
+  .footer .container .flex-wrapper .mid {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+  }
+  .footer .container .flex-wrapper .right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+  }
+  .footer .container .flex-wrapper .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .footer .container .flex-wrapper .links a li {
+    font-size: 28px;
+  }
+  .footer .container .flex-wrapper h6 {
+    color: #fff;
+    font-size: 28px;
+    position: relative;
+    display: inline;
+    padding-bottom: 15px;
+  }
+  .footer .container .flex-wrapper h6::after {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 3px;
+    background-color: #3d72a4;
+  }
+  .footer .container .bt-tag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-weight: 500;
+    opacity: 0.5;
+    padding: 50px 0;
+  }
 }
 
 @font-face {
@@ -1123,5 +1220,114 @@ img {
   font-size: 1rem;
   font-weight: 500;
   margin: 2em 0;
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero .container h1 {
+    max-width: 900px;
+    font-size: 70px;
+    line-height: 100px;
+  }
+  .simp-about {
+    padding: 80px 0;
+  }
+  .simp-about .container {
+    width: 85%;
+  }
+  .simp-about .container h1 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  .who-we-are-section .cartoon-one {
+    width: 400px;
+    top: -6%;
+    right: -9%;
+  }
+  .who-we-are-section .container .first .title,
+  .who-we-are-section .container .second .title {
+    font-size: 42px;
+  }
+  .who-we-are-section .container .first .title::after,
+  .who-we-are-section .container .second .title::after {
+    width: 10%;
+  }
+  .who-we-are-section .container .first p,
+  .who-we-are-section .container .second p {
+    font-size: 24px;
+    line-height: 55px;
+  }
+  .Lets-go-to-the-work {
+    padding: 80px 0;
+  }
+  .Lets-go-to-the-work .container .big-card h1 {
+    max-width: 950px;
+    margin: 0% auto;
+  }
+  .Lets-go-to-the-work .container .big-card .btn-group .btn {
+    padding: 25px 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .ceo-section {
+    padding: 120px 0 100px;
+  }
+  .ceo-section .cartoon-one {
+    width: 400px;
+    right: -8%;
+  }
+  .ceo-section .container h1 {
+    font-size: 74px;
+  }
+  .ceo-section .container .co-founders h3 {
+    font-size: 43px;
+  }
+  .ceo-section .container .co-founders img {
+    height: 565px;
+  }
+  .ceo-section .container .co-founders .flex-wrapper .co-founder h6 {
+    font-size: 35px;
+    padding: 23px 0 12px 0;
+  }
+  .ceo-section .container .co-founders .flex-wrapper .co-founder p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    max-width: 335px;
+  }
+  .faq-section {
+    padding: 80px 0 100px 0;
+  }
+  .faq-section .cartoon-one {
+    width: 350px;
+    top: -8%;
+  }
+  .faq-section .container h1 {
+    font-size: 65px;
+    max-width: 650px;
+    line-height: 75px;
+  }
+  .faq-section .container p {
+    font-weight: 500;
+    font-size: 23px;
+    max-width: 618px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  }
+  .faq-section .container .accordion button {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .faq-section .container .accordion .accordion-content p {
+    font-size: 1.5rem;
+    max-width: 1400px;
+  }
+  .faq-section .container .accordion button[aria-expanded="true"] .icon::after {
+    width: 0%;
+  }
+  .faq-section .container .accordion button[aria-expanded="true"] + .accordion-content {
+    max-height: 15em;
+  }
 }
 /*# sourceMappingURL=about.css.map */

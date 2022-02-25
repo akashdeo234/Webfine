@@ -391,3 +391,149 @@
     }
   }
 }
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero {
+    .container {
+      h1 {
+        max-width: 900px;
+        font-size: 70px;
+        line-height: 100px;
+      }
+    }
+  }
+  //simp about sec
+  .simp-about {
+    padding: 80px 0;
+    .container {
+      width: 85%;
+      h1 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 60px;
+      }
+    }
+  }
+  //who we are section
+  .who-we-are-section {
+    .cartoon-one {
+      width: 400px;
+      top: -6%;
+      right: -9%;
+    }
+    .container {
+      .first,
+      .second {
+        .title {
+          font-size: 42px;
+        }
+        .title::after {
+          width: 10%;
+        }
+        p {
+          font-size: 24px;
+          line-height: 55px;
+        }
+      }
+    }
+  }
+  //lets get to work sec
+  .Lets-go-to-the-work {
+    padding: 80px 0;
+    .container {
+      .big-card {
+        h1 {
+          max-width: 950px;
+          margin: 0% auto;
+        }
+        .btn-group {
+          .btn {
+            padding: 25px 25px;
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  //ceo section
+  .ceo-section {
+    padding: 120px 0 100px;
+    .cartoon-one {
+      width: 400px;
+      right: -8%;
+    }
+    .container {
+      h1 {
+        font-size: 74px;
+      }
+      .co-founders {
+        h3 {
+          font-size: 43px;
+        }
+        img {
+          height: 565px;
+        }
+        .flex-wrapper {
+          .co-founder {
+            h6 {
+              font-size: 35px;
+              padding: 23px 0 12px 0;
+            }
+            p {
+              font-size: 20px;
+              letter-spacing: 1px;
+              line-height: 30px;
+              max-width: 335px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //faq section
+  .faq-section {
+    padding: 80px 0 100px 0;
+    .cartoon-one {
+      width: 350px;
+      top: -8%;
+    }
+    .container {
+      h1 {
+        font-size: 65px;
+        max-width: 650px;
+        line-height: 75px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 23px;
+        max-width: 618px;
+        line-height: 38px;
+        letter-spacing: 1px;
+      }
+      .accordion {
+        button {
+          font-size: 2rem;
+          font-weight: 600;
+        }
+        .accordion-content { //max-height: 15em;
+          p {
+            font-size: 1.5rem;
+            max-width: 1400px;
+          }
+        }
+        button[aria-expanded="true"] {
+          .icon {
+            &::after {
+              width: 0%;
+            }
+          }
+          + .accordion-content {
+            max-height: 15em;
+          }
+        }
+      }
+    }
+  }
+}
