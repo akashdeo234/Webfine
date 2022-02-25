@@ -902,7 +902,7 @@ img {
 }
 
 .our-works-section .container .flex-wrapper .iteam .left .what-we-done-wrap a::after {
-  content: '';
+  content: "";
   width: 1px;
   height: 40%;
   border-right: 1px solid #fff;
@@ -1000,5 +1000,64 @@ img {
   font-size: 15px;
   width: 50%;
   margin: 0% auto;
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+  .hero .container h1 {
+    max-width: 900px;
+    font-size: 70px;
+    line-height: 100px;
+  }
+  .our-works-section {
+    padding: 50px 0 110px;
+  }
+  .our-works-section .container h1 {
+    font-size: 90px;
+    max-width: 525px;
+    margin-bottom: 43px;
+  }
+  .our-works-section .container h2 {
+    font-size: 25px;
+  }
+  .our-works-section .container .flex-wrapper .iteam .left h6 {
+    font-size: 37px;
+  }
+  .our-works-section .container .flex-wrapper .iteam .left p {
+    font-size: 22px;
+    line-height: 40px;
+    padding: 10px 0 20px;
+  }
+  .our-works-section .container .flex-wrapper .iteam .left .what-we-done-wrap a {
+    font-size: 22px;
+  }
+  .our-works-section .container .flex-wrapper .iteam .left .btn {
+    font-size: 13px;
+    padding: 17px 50px;
+  }
+  .Lets-go-to-the-work {
+    padding: 80px 0;
+  }
+  .Lets-go-to-the-work .container .big-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Lets-go-to-the-work .container .big-card h1 {
+    max-width: 950px;
+    margin: 0% auto;
+  }
+  .Lets-go-to-the-work .container .big-card .btn-group .btn {
+    padding: 25px 25px;
+    text-align: center;
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
