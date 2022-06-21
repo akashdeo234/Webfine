@@ -1640,8 +1640,8 @@ img {
     height: 350px;
   }
   .our-service .container .grid-wrapper .service .flex-wrapper h2 {
-    font-size: 23px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 35px;
     max-width: 400px;
   }
   .our-service .container .grid-wrapper .service .flex-wrapper p {
@@ -1681,8 +1681,8 @@ img {
             order: 1;
   }
   .our-service .container .grid-wrapper .service.three .flex-wrapper h2 {
-    font-size: 23px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 35px;
     max-width: 400px;
   }
 }
