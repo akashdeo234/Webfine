@@ -118,6 +118,20 @@ img {
   .right {
     width: 100%;
   }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
+  }
 }
 
 /* mobile iphone se starts */
@@ -257,6 +271,20 @@ img {
   }
   .right {
     width: 100%;
+  }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
   }
 }
 
@@ -609,6 +637,20 @@ img {
   .right {
     width: 100%;
   }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
+  }
 }
 
 /* mobile iphone se starts */
@@ -882,12 +924,12 @@ img {
   line-height: 60px;
   letter-spacing: 3px;
   overflow: hidden;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .what-we-do .container .left h3 {
   font-weight: 500;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-size: 28px;
   line-height: 42px;
   letter-spacing: 1px;
@@ -902,7 +944,7 @@ img {
   max-width: 500px;
   line-height: 35px;
   letter-spacing: 1px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .what-we-do .container .left .btn {
@@ -1544,13 +1586,52 @@ img {
   .hero .container .btn-group a {
     font-size: 8px;
     width: 100%;
-    padding: 0px;
     border: 1px solid #fff;
     text-align: center;
     padding: 20px 0;
   }
   .hero .container .page-mark {
     font-size: 12px;
+  }
+  .what-we-do {
+    height: auto;
+  }
+  .what-we-do .container .flex-wrapper {
+    height: auto;
+    gap: 50px 0;
+  }
+  .what-we-do .container .flex-wrapper .left {
+    overflow-x: hidden;
+  }
+  .what-we-do .container .flex-wrapper .left h2 {
+    font-size: 35px;
+    line-height: 48px;
+    max-width: 400px;
+  }
+  .what-we-do .container .flex-wrapper .left h3 {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 330px;
+  }
+  .what-we-do .container .flex-wrapper .left p {
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 45px;
+  }
+  .what-we-do .container .flex-wrapper .left .btn {
+    font-size: 8px;
+    padding: 0%;
+    width: 100%;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=index.css.map */

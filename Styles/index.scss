@@ -68,11 +68,11 @@
         line-height: 60px;
         letter-spacing: 3px;
         overflow: hidden;
-        margin-bottom: 25px;
+        padding-bottom: 25px;
       }
       h3 {
         font-weight: 500;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         font-size: 28px;
         line-height: 42px;
         letter-spacing: 1px;
@@ -86,7 +86,7 @@
         max-width: 500px;
         line-height: 35px;
         letter-spacing: 1px;
-        margin-bottom: 60px;
+        padding-bottom: 60px;
       }
       .btn {
         border: 2px solid #fff;
@@ -728,7 +728,7 @@
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {
-  .bg-section{
+  .bg-section {
     padding: 0%;
     margin: 0%;
   }
@@ -747,15 +747,56 @@
         a {
           font-size: 8px;
           width: 100%;
-          padding: 0px;
-          border: 1px solid #fff; 
+          border: 1px solid #fff;
           text-align: center;
           padding: 20px 0;
         }
       }
-      .page-mark{
+      .page-mark {
         font-size: 12px;
       }
     }
   }
+
+  //What We Do Section
+  .what-we-do {
+    height: auto;
+    .container {
+      .flex-wrapper {
+        height: auto;
+        gap: 50px 0;
+        .left {
+         overflow-x: hidden;
+          h2 {
+            font-size: 35px;
+            line-height: 48px;
+            max-width: 400px;
+          }
+          h3{
+            font-size: 18px;
+            line-height: 30px;
+            max-width: 330px;
+          }
+          p{
+            font-size: 15px;
+            line-height: 30px;
+            padding-bottom: 45px;
+          }
+          .btn{
+            font-size: 8px;
+            padding: 0%;
+            width: 100%;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  //Our Service Section
+  
+  
 }

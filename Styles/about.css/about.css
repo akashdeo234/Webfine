@@ -118,6 +118,20 @@ img {
   .right {
     width: 100%;
   }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
+  }
 }
 
 /* mobile iphone se starts */
@@ -257,6 +271,20 @@ img {
   }
   .right {
     width: 100%;
+  }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
   }
 }
 
@@ -608,6 +636,20 @@ img {
   }
   .right {
     width: 100%;
+  }
+  .btn-group a, .btn-group .btn {
+    font-size: 8px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0%;
   }
 }
 
