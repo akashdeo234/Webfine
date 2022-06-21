@@ -1483,4 +1483,36 @@ img {
     font-size: 13px;
   }
 }
+
+/*mobile view media queries starts*/
+@media (max-width: 766px) {
+  .bg-section {
+    padding: 0%;
+    margin: 0%;
+  }
+  .hero {
+    height: auto;
+  }
+  .hero .container {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .hero .container h1 {
+    max-width: 300px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .hero .container .btn-group {
+    gap: 15px;
+  }
+  .hero .container .btn-group a {
+    font-size: 10px;
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid #fff;
+  }
+  .hero .container .page-mark {
+    font-size: 12px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
