@@ -1508,8 +1508,11 @@ img {
   .hero .container .btn-group a {
     font-size: 10px;
     width: 100%;
-    padding: 20px 0;
+    padding: 0px;
     border: 1px solid #fff;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
   }
   .hero .container .page-mark {
     font-size: 12px;
