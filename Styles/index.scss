@@ -807,7 +807,7 @@
               height: 350px;
             }
             h2 {
-              font-size: 28px;
+              font-size: 25px;
               line-height: 43px;
               max-width: 400px;
             }
@@ -832,8 +832,8 @@
         .service.two{
           .flex-wrapper{
             h2{
-              font-size: 25px;
-              line-height: 40px;
+              font-size: 20px;
+              line-height: 35px;
               max-width: 400px;
             }
             .left{
@@ -841,6 +841,15 @@
             }
             .right{
               order: 1;
+            }
+          }
+        }
+        .service.three{
+          .flex-wrapper{
+            h2{
+              font-size: 20px;
+              line-height: 35px;
+              max-width: 400px;
             }
           }
         }
