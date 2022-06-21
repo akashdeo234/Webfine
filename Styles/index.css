@@ -85,6 +85,15 @@ img {
   font-weight: 700;
   width: 320px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .left,
@@ -216,6 +225,15 @@ img {
   font-weight: 700;
   width: 320px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .left,
@@ -558,6 +576,15 @@ img {
   font-weight: 700;
   width: 320px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .left,
@@ -1515,7 +1542,7 @@ img {
     gap: 15px;
   }
   .hero .container .btn-group a {
-    font-size: 10px;
+    font-size: 8px;
     width: 100%;
     padding: 0px;
     border: 1px solid #fff;
