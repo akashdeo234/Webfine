@@ -145,7 +145,7 @@
             max-width: 580px;
             line-height: 35px;
             letter-spacing: 1px;
-            margin-bottom: 33px;
+            padding-bottom: 33px;
           }
           .btn-group {
             .btn {
@@ -766,23 +766,23 @@
         height: auto;
         gap: 50px 0;
         .left {
-         overflow-x: hidden;
+          overflow-x: hidden;
           h2 {
             font-size: 30px;
             line-height: 43px;
             max-width: 400px;
           }
-          h3{
+          h3 {
             font-size: 15px;
             line-height: 30px;
             max-width: 330px;
           }
-          p{
+          p {
             font-size: 15px;
             line-height: 30px;
             padding-bottom: 45px;
           }
-          .btn{
+          .btn {
             font-size: 8px;
             padding: 0%;
             width: 100%;
@@ -797,6 +797,54 @@
   }
 
   //Our Service Section
-  
-  
+  .our-service {
+    padding-bottom: 50px;
+    .container {
+      .grid-wrapper {
+        .service {
+          .flex-wrapper {
+            img{
+              height: 350px;
+            }
+            h2 {
+              font-size: 28px;
+              line-height: 43px;
+              max-width: 400px;
+            }
+            p {
+              font-size: 15px;
+              line-height: 30px;
+              padding-bottom: 20px;
+            }
+            .btn-group{
+              .btn {
+                font-size: 8px;
+                padding: 0%;
+                width: 50%;
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+        .service.two{
+          .flex-wrapper{
+            h2{
+              font-size: 25px;
+              line-height: 40px;
+              max-width: 400px;
+            }
+            .left{
+              order: 2;
+            }
+            .right{
+              order: 1;
+            }
+          }
+        }
+      }
+    }
+  }
 }
